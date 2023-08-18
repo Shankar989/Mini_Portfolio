@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#3C4048;
+}
+#photo{
+    margin-left: 130px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-right:5px;
+}
+#info{
+background-color: #1a1b21;
+position: absolute;
+width: 318px;
+padding:10px 10px;
+height: 740px;
+padding: 10px 20px;
+left: 130px;
+top: 315px;
+color: white;
+
+
+}
+
+.nav{
+position: absolute;
+width: 318px;
+height: 64px;
+left: 130px;
+top: 1055px;
+padding: 20px 20px;
+background: #161619;
+border-radius: 0px 0px 10px 10px;
+}
+.nav >img{
+    justify-content: space-between;
+    margin: 4px 15px;
+}
+
